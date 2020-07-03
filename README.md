@@ -1,5 +1,7 @@
 # pi-live-reload
 
+[Read more](https://github.com/napcs/node-livereload) on how to instrument you web application code for live reload during development.
+
 ## install
 
 ``ssh`` into the raspberry pi.
@@ -17,7 +19,7 @@ Install ``pi-live-reload``
 curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/kkibria/pi-live-reload/master/install.sh | sh
 ```
 
-now from command line you type,
+now from command line type,
 ```bash
 pi-live-reload
 ```
@@ -28,3 +30,5 @@ you can check by typing,
 netstat -tulpn | grep LISTEN
 ```
 and you should see port 35729 is listening.
+
+
